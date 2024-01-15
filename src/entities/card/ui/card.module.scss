@@ -1,0 +1,13 @@
+.card {
+  height: 125px;
+  width: 125px;
+  background: hsl(0, 1%, 33%);
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
