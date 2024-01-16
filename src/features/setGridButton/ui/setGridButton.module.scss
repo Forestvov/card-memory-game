@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  width: 190px;
+  line-height: 60px;
+  border-radius: 10px;
+  border: none;
+  background: hsl(0, 1%, 33%);
+  color: hsl(0, 0%, 100%);
+  transition: background 400ms;
+
+  &:hover {
+    background: hsl(0, 2%, 25%);
+  }
+}

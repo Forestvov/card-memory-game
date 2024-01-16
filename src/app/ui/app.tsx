@@ -3,10 +3,12 @@ import { GamePage } from 'pages/game'
 import { Layout } from 'widgets/layout'
 import { StoreProvider } from '../providers/storeProvider'
 
-export const App = () => (
+const App = () => (
   <StoreProvider>
     <Layout>
       <GamePage />
     </Layout>
   </StoreProvider>
 )
+
+export default App
