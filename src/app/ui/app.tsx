@@ -1,4 +1,12 @@
-import React from 'react'
 import './app.scss'
+import { GamePage } from 'pages/game'
+import { Layout } from 'widgets/layout'
+import { StoreProvider } from '../providers/storeProvider'
 
-export const App = () => <div>1</div>
+export const App = () => (
+  <StoreProvider>
+    <Layout>
+      <GamePage />
+    </Layout>
+  </StoreProvider>
+)
