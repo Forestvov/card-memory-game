@@ -1,2 +1,3 @@
 export { Card } from './ui/card'
-export { cardsSlice, initGame } from './store/cards-slice'
+export { cardsSlice, setGameSize } from './store/cards-slice'
+export type { GameSizeValue } from './types'
